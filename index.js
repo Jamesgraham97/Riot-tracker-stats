@@ -1,5 +1,5 @@
 // index.js
-const axios = require("axios");
+import axios from "axios";
 
 // === CONFIGURATION ===
 const API_KEY = process.env.API_KEY;
