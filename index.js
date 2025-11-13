@@ -2,10 +2,10 @@
 const axios = require("axios");
 
 // === CONFIGURATION ===
-const API_KEY = "RGAPI-d7fe19ab-0576-4dec-83f0-33c8f53bf2ea";
+const API_KEY = process.env.API_KEY;
 const REGION = "europe";
 const SPLIT_START_DATE = "2025-08-26";
-const WEBHOOK_URL = "https://discord.com/api/webhooks/1436127955859406880/GCgIHAa7jYwBGmnjdXqLp9sYpSIzYAV9bdk1eHIPR8noMzdX8-0QumVncC1Gb33-CBlP";
+const WEBHOOK_URL = process.env.WEBHOOK_URL;
 const CURRENT_SPLIT_GOAL = 50;
 const INCLUDE_REMAKES = false;
 const SOLO_QUEUE_ID = 420;
